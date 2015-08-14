@@ -4,12 +4,20 @@ try{
         http = require('http').Server(app),
         io = require('socket.io')(http),
         randomstring = require("randomstring"),
-        igra = require('./igra');
+        igra = require('./igra'),
+        grunt = require('grunt');
 } catch (e) {
     console.log('Moduli nisu učitani.');
     console.log('Pokreni npm install');
     console.log('Error: ', e);
 }
+
+    //try{
+    //    grunt.tasks('default');
+    //} catch (e) {
+    //    console.log('grunt se nije izvrsio');
+    //    console.log('Error', e);
+    //}
 
 var gameOptions = {};
 

@@ -35,14 +35,21 @@ module.exports = function(grunt) {
                 cwd: 'asset/img/',
                 src: '**/*.*'
             }
+        },
+        watch: {
+            scripts: {
+                files: ['assets/js/**/*.js', 'assets/css/*.css'],
+                tasks: ['build']
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-browserify');
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
     grunt.registerTask('build', ['browserify', 'copy']);
-    grunt.registerTask('default', ['build']);
+    grunt.registerTask('default', ['build', 'watch']);
 
 };
