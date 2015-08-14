@@ -1,0 +1,22 @@
+{
+  "name": "Tenkovi online",
+  "version": "0.0.1",
+  "authors": [
+    "Ivan Jakab"
+  ],
+  "description": "tenkovi online",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "easeljs": "*",
+      "jquery" : "*",
+      "bootstrap" : "*"
+  }
+}
