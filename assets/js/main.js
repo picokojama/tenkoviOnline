@@ -1,0 +1,1 @@
+console.log('sve radi na klijentu!');

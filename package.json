@@ -1,0 +1,21 @@
+{
+  "name": "tenkoviOnline",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Tenkovi online",
+  "keywords": [],
+  "dependencies": {
+    "browserify": "^4.1.11",
+    "ejs": "^2.3.3",
+    "express": "*",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^2.1.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "randomstring": "^1.0.7",
+    "socket.io": "*"
+  },
+  "main": "app.js",
+  "author": "Ivan Jakab",
+  "license": "MIT"
+}
