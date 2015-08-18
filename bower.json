@@ -15,8 +15,9 @@
     "tests"
   ],
   "dependencies": {
-      "easeljs": "*",
-      "jquery" : "*",
-      "bootstrap" : "*"
+    "easeljs": "*",
+    "jquery": "*",
+    "bootstrap": "*",
+    "preloadjs": "*"
   }
 }

@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         copy: {
             scripts: {
                 src: [
-                    'bower_components/easeljs/lib/easeljs-0.8.1.combined.js',
+                    'bower_components/easeljs/lib/easeljs-0.7.1.combined.js',
                     'bower_components/jquery/dist/jquery.min.js',
                     'bower_components/bootstrap/dist/js/bootstrap.min.js'
                 ],
@@ -32,13 +32,13 @@ module.exports = function(grunt) {
             images: {
                 expand: true,
                 dest: 'app/img/',
-                cwd: 'asset/img/',
+                cwd: 'assets/img/',
                 src: '**/*.*'
             }
         },
         watch: {
             scripts: {
-                files: ['assets/js/**/*.js', 'assets/css/*.css'],
+                files: ['assets/**/*.*'],
                 tasks: ['build']
             }
         }
