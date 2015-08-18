@@ -12,8 +12,9 @@ module.exports = function(grunt) {
         copy: {
             scripts: {
                 src: [
-                    'bower_components/easeljs/lib/easeljs-0.7.1.combined.js',
+                    'bower_components/easeljs/lib/easeljs-0.7.1.min.js',
                     'bower_components/jquery/dist/jquery.min.js',
+                    'assets/js/services/collisionService.js',
                     'bower_components/bootstrap/dist/js/bootstrap.min.js'
                 ],
                 dest: 'app/lib/dependencies/',

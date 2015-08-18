@@ -1,4 +1,4 @@
-var beforeGame = require('./beforeGame');
+var beforeGame = require('./../beforeGame');
 
 try{
     var socket = io('/' + igra);

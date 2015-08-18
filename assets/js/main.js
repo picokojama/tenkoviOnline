@@ -1,6 +1,6 @@
 var canvas = $('canvas#main')[0],
-    actionService = require('./actionService'),
-    socketService = require('./socketService'),
+    actionService = require('./services/actionService'),
+    socketService = require('./services/socketService'),
     beforeGame = require('./beforeGame'),
     stage;
 
